@@ -1,0 +1,16 @@
+/Users/kmurali/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160107-1957-1r072vh.rb extconf.rb
+checking for ruby/util.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20160107-1957-vixa7d
